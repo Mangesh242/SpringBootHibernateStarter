@@ -1,4 +1,4 @@
-package com.example.demo.entity;
+package com.example.demo.employeeTable.entity;
 
 import lombok.Data;
 
@@ -18,26 +18,13 @@ public class Employee {
     @Column(name = "id")
     private String id;
 
-    public Employee() {
-    }
-
     @Column(name = "name")
     private String name;
 
 
-    public String getId() {
-        return id;
+    public Employee() {
     }
 
-    public String getName() {
-        return name;
-    }
 
-    public void setId(String id) {
-        this.id = id;
-    }
 
-    public void setName(String name) {
-        this.name = name;
-    }
 }
