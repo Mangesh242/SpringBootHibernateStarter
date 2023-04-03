@@ -21,4 +21,9 @@ public class EmployeeController {
      return   repo.findAll();
     }
 
+    @GetMapping(value="/api/empid")
+    public List<Employee> getEmpById(){
+        return repo.findAll();
+    }
+
 }
