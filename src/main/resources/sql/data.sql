@@ -2,10 +2,10 @@ drop table IF EXISTS employee;
 CREATE TABLE employee
 (
  name varchar(100) NOT NULL,
-  id varchar(11) NOT NULL,
+  id int NOT NULL,
  PRIMARY KEY (id)
 );
 insert into employee
-values('1','Jack');
+values('Jack',1);
 insert into employee
-values('2','Shrawya');
+values('Shrawya',2);
